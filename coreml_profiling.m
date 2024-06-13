@@ -114,10 +114,14 @@ int main(int argc, char *argv[]) {
 
   int ch;
   bool async = false;
-  while ((ch = getopt(argc, argv, "a")) != -1) {
+  int wait_second = 3;
+  while ((ch = getopt(argc, argv, "aw:")) != -1) {
     switch (ch) {
       case 'a':
         async = true;
+        break;
+      case 'w':
+        wait_second = atoi(optarg);
         break;
       default:
         usage();
@@ -138,7 +142,7 @@ int main(int argc, char *argv[]) {
 
   if (async) {
     load_the_plan_async(testURL);
-    sleep(3);
+    sleep(wait_second);
   } else {
     load_the_plan(testURL);
   }
