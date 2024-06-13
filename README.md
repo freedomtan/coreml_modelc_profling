@@ -25,3 +25,6 @@ E.g., I got
 2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.add, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 18.685220 us
 ....
 ```
+
+Notes:
+1. if the .mlmodelc is from old .mlmodel, add `-a` 
