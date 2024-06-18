@@ -8,21 +8,21 @@ In iOS 17.4 / MacOS 15.4 or later. It's possible to get per-op profiling with ML
 
 E.g., I got 
 ```
-2024-06-13 20:50:46.742 coreml_profiling[43991:7696208] the mlmodelc directory: file:///tmp/MobilenetEdgeTPU.mlmodelc/ 
-2024-06-13 20:50:47.804 coreml_profiling[43991:7696208] ML Program 
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.mul, device <MLCPUComputeDevice: 0x60000260e430>, cost 46.175446 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.add, device <MLCPUComputeDevice: 0x60000260e430>, cost 36.490350 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.cast, device <MLCPUComputeDevice: 0x60000260e430>, cost 22.766798 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 5.661668 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 24.626741 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 45.811273 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 29.749493 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 24.626741 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 6.613858 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 30.671379 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 24.626741 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 6.613858 us
-2024-06-13 20:50:47.805 coreml_profiling[43991:7696208] operation ios17.add, device <MLNeuralEngineComputeDevice: 0x6000026167f0>, cost 18.685220 us
+2024-06-13 16:59:10.628 coreml_profiling[67391:1771143] the mlmodelc directory: file:///tmp/MobilenetEdgeTPU.mlmodelc/ 
+2024-06-13 16:59:10.784 coreml_profiling[67391:1771143] ML Program 
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.mul, device <MLCPUComputeDevice: 0x6000036e8170>, cost 4.6175%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.add, device <MLCPUComputeDevice: 0x6000036e8170>, cost 3.6490%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.cast, device <MLCPUComputeDevice: 0x6000036e8170>, cost 2.2767%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 0.5662%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 2.4627%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 4.5811%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 2.9749%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 2.4627%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 0.6614%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 3.0671%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios16.relu, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 2.4627%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.conv, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 0.6614%
+2024-06-13 16:59:10.785 coreml_profiling[67391:1771143] operation ios17.add, device <MLNeuralEngineComputeDevice: 0x6000036ec0e0>, cost 1.8685%
 ....
 ```
 

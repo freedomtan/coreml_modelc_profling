@@ -26,8 +26,8 @@ void check_mlprogram(MLComputePlan *computePlan, MLModelStructureProgram *progra
     // Get the estimated cost of executing the operation.
     MLComputePlanCost *estimatedCost = [computePlan estimatedCostOfMLProgramOperation:operation];
     if ((estimatedCost) && (computeDeviceUsage)) {
-      NSLog(@"operation %@, device %@, cost %lf us", [operation operatorName],
-            [computeDeviceUsage preferredComputeDevice], [estimatedCost weight] * 1e3);
+      NSLog(@"operation %@, device %@, cost %02.4lf%%", [operation operatorName],
+            [computeDeviceUsage preferredComputeDevice], [estimatedCost weight] * 100);
     }
   }
 }
