@@ -27,4 +27,4 @@ E.g., I got
 ```
 
 Notes:
-1. if the .mlmodelc is from old .mlmodel, add `-a` 
+1. add `-s` for synchronous

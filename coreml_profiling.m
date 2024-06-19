@@ -113,12 +113,12 @@ int main(int argc, char *argv[]) {
   const char *mobilenet = "/tmp/MobileNet.mlmodelc";
 
   int ch;
-  bool async = false;
+  bool async = true;
   int wait_second = 3;
-  while ((ch = getopt(argc, argv, "aw:")) != -1) {
+  while ((ch = getopt(argc, argv, "sw:")) != -1) {
     switch (ch) {
-      case 'a':
-        async = true;
+      case 's':
+        async = false;
         break;
       case 'w':
         wait_second = atoi(optarg);
