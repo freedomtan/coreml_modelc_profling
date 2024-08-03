@@ -1,0 +1,4042 @@
+2024-08-03 09:09:29.040 coreml_profiling_without_compute_plan[27490:461550] the mlmodelc directory: file:///tmp/MobilenetEdgeTPU.mlmodelc/ 
+2024-08-03 09:09:29.128 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:107:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:107:12";
+    EstimatedRunTime =     {
+        ane = "0.003661746555695056";
+        "classic_cpu" = "0.05863387368665129";
+        "mps_graph" = "0.0140208625435035";
+    };
+    OpIndex = 102;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.128 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:106:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:106:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 101;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:9:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:9:12";
+    EstimatedRunTime =     {
+        ane = "0.003691335258848058";
+        "classic_cpu" = "0.08518437120859405";
+        "mps_graph" = "0.02992088472374345";
+    };
+    OpIndex = 4;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_Conv_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:19:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:19:12";
+    EstimatedRunTime =     {
+        ane = "0.01999734690777815";
+        "classic_cpu" = "0.3653376274215279";
+        "mps_graph" = "0.1473130580229167";
+    };
+    OpIndex = 14;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_3_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:29:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:29:12";
+    EstimatedRunTime =     {
+        ane = "0.00322782100191316";
+        "classic_cpu" = "0.07448792459660583";
+        "mps_graph" = "0.02616377363059157";
+    };
+    OpIndex = 24;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_5_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:39:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:39:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 34;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_8_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:49:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:49:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 44;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:59:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:59:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 54;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:105:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:105:12";
+    EstimatedRunTime =     {
+        ane = "0.001683123037059981";
+        "classic_cpu" = "0.03884116925846405";
+        "mps_graph" = "0.01364290340386598";
+    };
+    OpIndex = 100;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:69:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:69:12";
+    EstimatedRunTime =     {
+        ane = "0.004835439454133067";
+        "classic_cpu" = "0.1115866862621668";
+        "mps_graph" = "0.03919465893783552";
+    };
+    OpIndex = 64;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_13_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:79:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:79:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 74;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.129 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:99:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:99:12";
+    EstimatedRunTime =     {
+        ane = "0.001683123037059981";
+        "classic_cpu" = "0.03884116925846405";
+        "mps_graph" = "0.01364290340386598";
+    };
+    OpIndex = 94;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:89:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:89:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 84;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_17_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:104:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:104:12";
+    EstimatedRunTime =     {
+        ane = "0.0009517597011732084";
+        "classic_cpu" = "0.00247820493108118";
+        "mps_graph" = "0.001536108537643492";
+    };
+    OpIndex = 99;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:103:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:103:12";
+    EstimatedRunTime =     {
+        ane = "0.001679190506599561";
+        "classic_cpu" = "0.03875041886300035";
+        "mps_graph" = "0.01361102746133358";
+    };
+    OpIndex = 98;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:18:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:18:12";
+    EstimatedRunTime =     {
+        ane = "0.01218252417501707";
+        "classic_cpu" = "0.0317210231178391";
+        "mps_graph" = "0.0196621892818367";
+    };
+    OpIndex = 13;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_2_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:28:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:28:12";
+    EstimatedRunTime =     {
+        ane = "0.008028160000000001";
+        "classic_cpu" = "0.008028160000000001";
+        "mps_graph" = "0.008028160000000001";
+    };
+    OpIndex = 23;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_5_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:38:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:38:12";
+    EstimatedRunTime =     {
+        ane = "0.01124200936431636";
+        "classic_cpu" = "0.2053836965248841";
+        "mps_graph" = "0.08281572477674803";
+    };
+    OpIndex = 33;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_8_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:48:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:48:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 43;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:58:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:58:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 53;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:68:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:68:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 63;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_13_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:78:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:78:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 73;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.130 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:88:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:88:12";
+    EstimatedRunTime =     {
+        ane = "0.004857461624711422";
+        "classic_cpu" = "0.1120948884767636";
+        "mps_graph" = "0.03937316421601696";
+    };
+    OpIndex = 83;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_17_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:98:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:98:12";
+    EstimatedRunTime =     {
+        ane = "0.0009517597011732084";
+        "classic_cpu" = "0.00247820493108118";
+        "mps_graph" = "0.001536108537643492";
+    };
+    OpIndex = 93;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:8:12, {
+    BackendSupport =     {
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.cast:8:12";
+    EstimatedRunTime =     {
+        "classic_cpu" = "0.01484366090858284";
+        "mps_graph" = "0.01236971686868107";
+    };
+    OpIndex = 3;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "cast_173";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.cast";
+    SelectedBackend = "\"classic_cpu\"";
+    ValidationMessages =     {
+        ane = "Invalid input tensor format: fp32";
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:102:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:102:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 97;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:101:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:101:12";
+    EstimatedRunTime =     {
+        ane = "0.003661746555695056";
+        "classic_cpu" = "0.05863387368665129";
+        "mps_graph" = "0.0140208625435035";
+    };
+    OpIndex = 96;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:100:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:100:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 95;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_19_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:17:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:17:12";
+    EstimatedRunTime =     {
+        ane = "0.004312150734199777";
+        "classic_cpu" = "0.09951083363913034";
+        "mps_graph" = "0.03495303351819121";
+    };
+    OpIndex = 12;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_2_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:27:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:27:12";
+    EstimatedRunTime =     {
+        ane = "0.009998673453889077";
+        "classic_cpu" = "0.182668813710764";
+        "mps_graph" = "0.07365652901145837";
+    };
+    OpIndex = 22;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_5_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:37:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:37:12";
+    EstimatedRunTime =     {
+        ane = "0.0045684465656314";
+        "classic_cpu" = "0.01189538366918966";
+        "mps_graph" = "0.007373320980688763";
+    };
+    OpIndex = 32;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_7_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:47:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:47:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 42;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:57:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:57:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 52;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.131 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:67:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:67:12";
+    EstimatedRunTime =     {
+        ane = "0.006548064429007629";
+        "classic_cpu" = "0.1048511623573058";
+        "mps_graph" = "0.02507260125426507";
+    };
+    OpIndex = 62;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_13_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:77:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:77:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 72;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:87:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:87:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 82;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:97:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:97:12";
+    EstimatedRunTime =     {
+        ane = "0.001679190506599561";
+        "classic_cpu" = "0.03875041886300035";
+        "mps_graph" = "0.01361102746133358";
+    };
+    OpIndex = 92;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:7:12, {
+    BackendSupport =     {
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:7:12";
+    EstimatedRunTime =     {
+        "classic_cpu" = "0.02379124148473093";
+        "mps_graph" = "0.01474693585969468";
+    };
+    OpIndex = 2;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "images__biased__";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"classic_cpu\"";
+    ValidationMessages =     {
+        ane = "Invalid output tensor format: fp32";
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:119:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:119:12";
+    EstimatedRunTime =     {
+        ane = "0.005869291880542324";
+        "classic_cpu" = "0.09398228782889746";
+        "mps_graph" = "0.02247357468167665";
+    };
+    OpIndex = 114;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "conv_0_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:16:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:16:12";
+    EstimatedRunTime =     {
+        ane = "0.01605632";
+        "classic_cpu" = "0.01605632";
+        "mps_graph" = "0.01605632";
+    };
+    OpIndex = 11;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_2_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:26:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:26:12";
+    EstimatedRunTime =     {
+        ane = "0.01218252417501707";
+        "classic_cpu" = "0.0317210231178391";
+        "mps_graph" = "0.0196621892818367";
+    };
+    OpIndex = 21;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_4_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:36:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:36:12";
+    EstimatedRunTime =     {
+        ane = "0.002422438763619039";
+        "classic_cpu" = "0.05590224360563986";
+        "mps_graph" = "0.01963558059995664";
+    };
+    OpIndex = 31;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_7_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:46:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:46:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 41;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_9_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.132 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:56:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:56:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 51;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:66:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:66:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 61;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_13_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:76:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:76:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 71;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:86:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:86:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 81;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:96:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:96:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 91;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:118:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.avg_pool:118:12";
+    EstimatedRunTime =     {
+        ane = "0.001755762187873616";
+        "classic_cpu" = "0.002106914720004125";
+        "mps_graph" = "0.001755762187873616";
+    };
+    OpIndex = 113;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "avg_pool_0_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.avg_pool";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:117:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:117:12";
+    EstimatedRunTime =     {
+        ane = "0.0025088";
+        "classic_cpu" = "0.0025088";
+        "mps_graph" = "0.0025088";
+    };
+    OpIndex = 112;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_Conv_1_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:116:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:116:12";
+    EstimatedRunTime =     {
+        ane = "0.004037397939365064";
+        "classic_cpu" = "0.09317040600939976";
+        "mps_graph" = "0.0327259676665944";
+    };
+    OpIndex = 111;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_Conv_1_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:6:12, {
+    BackendSupport =     {
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.mul:6:12";
+    EstimatedRunTime =     {
+        "classic_cpu" = "0.03010580000000001";
+        "mps_graph" = "0.0150529";
+    };
+    OpIndex = 1;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "images__scaled__";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.mul";
+    SelectedBackend = "\"classic_cpu\"";
+    ValidationMessages =     {
+        ane = "Invalid output tensor format: fp32";
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:15:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:15:12";
+    EstimatedRunTime =     {
+        ane = "0.01999734690777815";
+        "classic_cpu" = "0.3653376274215279";
+        "mps_graph" = "0.1473130580229167";
+    };
+    OpIndex = 10;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_2_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.133 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:25:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:25:12";
+    EstimatedRunTime =     {
+        ane = "0.004312150734199777";
+        "classic_cpu" = "0.09951083363913034";
+        "mps_graph" = "0.03495303351819121";
+    };
+    OpIndex = 20;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_4_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:35:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:35:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 30;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_7_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:45:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:45:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 40;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_9_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:55:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:55:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 50;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:65:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:65:12";
+    EstimatedRunTime =     {
+        ane = "0.004857461624711422";
+        "classic_cpu" = "0.1120948884767636";
+        "mps_graph" = "0.03937316421601696";
+    };
+    OpIndex = 60;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_13_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:75:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:75:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 70;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:85:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:85:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 80;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:95:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:95:12";
+    EstimatedRunTime =     {
+        ane = "0.003661746555695056";
+        "classic_cpu" = "0.05863387368665129";
+        "mps_graph" = "0.0140208625435035";
+    };
+    OpIndex = 90;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:115:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:115:12";
+    EstimatedRunTime =     {
+        ane = "0.004028484203654777";
+        "classic_cpu" = "0.09296470511301537";
+        "mps_graph" = "0.03265371553018763";
+    };
+    OpIndex = 110;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_21_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:114:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:114:12";
+    EstimatedRunTime =     {
+        ane = "0.0025088";
+        "classic_cpu" = "0.0025088";
+        "mps_graph" = "0.0025088";
+    };
+    OpIndex = 109;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_21_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:113:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:113:12";
+    EstimatedRunTime =     {
+        ane = "0.002728360178753178";
+        "classic_cpu" = "0.04368798431554409";
+        "mps_graph" = "0.01044691718927711";
+    };
+    OpIndex = 108;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_21_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.134 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:14:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:14:12";
+    EstimatedRunTime =     {
+        ane = "0.004312150734199777";
+        "classic_cpu" = "0.09951083363913034";
+        "mps_graph" = "0.03495303351819121";
+    };
+    OpIndex = 9;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_1_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:24:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:24:12";
+    EstimatedRunTime =     {
+        ane = "0.01605632";
+        "classic_cpu" = "0.01605632";
+        "mps_graph" = "0.01605632";
+    };
+    OpIndex = 19;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_4_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:34:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:34:12";
+    EstimatedRunTime =     {
+        ane = "0.01124200936431636";
+        "classic_cpu" = "0.2053836965248841";
+        "mps_graph" = "0.08281572477674803";
+    };
+    OpIndex = 29;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_7_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:44:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:44:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 39;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_9_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:54:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:54:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 49;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:64:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:64:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 59;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:74:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:74:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 69;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:84:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:84:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 79;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:94:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:94:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 89;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:112:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:112:12";
+    EstimatedRunTime =     {
+        ane = "0.0025088";
+        "classic_cpu" = "0.0025088";
+        "mps_graph" = "0.0025088";
+    };
+    OpIndex = 107;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_21_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:5:12, {
+    BackendSupport =     {
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.tensor_buffer_to_tensor:5:12";
+    EstimatedRunTime =     {
+        "classic_cpu" = "0.009895773939055228";
+        "mps_graph" = "0.008246477912454043";
+    };
+    OpIndex = 0;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "images_4D454D5F4F5054";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.tensor_buffer_to_tensor";
+    SelectedBackend = "\"classic_cpu\"";
+    ValidationMessages =     {
+        ane = "Unsupported tensor format: fp32.";
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:111:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:111:12";
+    EstimatedRunTime =     {
+        ane = "0.003366246074119962";
+        "classic_cpu" = "0.0776823385169281";
+        "mps_graph" = "0.02728580680773195";
+    };
+    OpIndex = 106;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_21_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.135 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:110:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:110:12";
+    EstimatedRunTime =     {
+        ane = "0.0009517597011732084";
+        "classic_cpu" = "0.00247820493108118";
+        "mps_graph" = "0.001536108537643492";
+    };
+    OpIndex = 105;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:13:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:13:12";
+    EstimatedRunTime =     {
+        ane = "0.01605632";
+        "classic_cpu" = "0.01605632";
+        "mps_graph" = "0.01605632";
+    };
+    OpIndex = 8;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_1_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:23:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:23:12";
+    EstimatedRunTime =     {
+        ane = "0.01999734690777815";
+        "classic_cpu" = "0.3653376274215279";
+        "mps_graph" = "0.1473130580229167";
+    };
+    OpIndex = 18;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_4_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:33:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:33:12";
+    EstimatedRunTime =     {
+        ane = "0.0045684465656314";
+        "classic_cpu" = "0.01189538366918966";
+        "mps_graph" = "0.007373320980688763";
+    };
+    OpIndex = 28;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_6_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:43:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:43:12";
+    EstimatedRunTime =     {
+        ane = "0.01204224";
+        "classic_cpu" = "0.01204224";
+        "mps_graph" = "0.01204224";
+    };
+    OpIndex = 38;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_9_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:53:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:53:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 48;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_11_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:63:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:63:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 58;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:73:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:73:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 68;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:83:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:83:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 78;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:93:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:93:12";
+    EstimatedRunTime =     {
+        ane = "0.001683123037059981";
+        "classic_cpu" = "0.03884116925846405";
+        "mps_graph" = "0.01364290340386598";
+    };
+    OpIndex = 88;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_18_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:12:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:12:12";
+    EstimatedRunTime =     {
+        ane = "0.01939628890558343";
+        "classic_cpu" = "0.4476051505324306";
+        "mps_graph" = "0.1572206488211247";
+    };
+    OpIndex = 7;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_1_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:22:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:22:12";
+    EstimatedRunTime =     {
+        ane = "0.01218252417501707";
+        "classic_cpu" = "0.0317210231178391";
+        "mps_graph" = "0.0196621892818367";
+    };
+    OpIndex = 17;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_3_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.136 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:32:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:32:12";
+    EstimatedRunTime =     {
+        ane = "0.002422438763619039";
+        "classic_cpu" = "0.05590224360563986";
+        "mps_graph" = "0.01963558059995664";
+    };
+    OpIndex = 27;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_6_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:42:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:42:12";
+    EstimatedRunTime =     {
+        ane = "0.004882629819658113";
+        "classic_cpu" = "0.1126756910077312";
+        "mps_graph" = "0.03957717024822429";
+    };
+    OpIndex = 37;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_9_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:52:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:52:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 47;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:62:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:62:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 57;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:72:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:72:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 67;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:82:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:82:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 77;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_16_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:92:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:92:12";
+    EstimatedRunTime =     {
+        ane = "0.002014766439222112";
+        "classic_cpu" = "0.04649445260923618";
+        "mps_graph" = "0.0163311078907648";
+    };
+    OpIndex = 87;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_17_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:11:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:11:12";
+    EstimatedRunTime =     {
+        ane = "0.02986836406214006";
+        "classic_cpu" = "0.47826845987543";
+        "mps_graph" = "0.1143662513352442";
+    };
+    OpIndex = 6;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:21:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:21:12";
+    EstimatedRunTime =     {
+        ane = "0.004312150734199777";
+        "classic_cpu" = "0.09951083363913034";
+        "mps_graph" = "0.03495303351819121";
+    };
+    OpIndex = 16;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_3_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:31:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:31:12";
+    EstimatedRunTime =     {
+        ane = "0.00602112";
+        "classic_cpu" = "0.00602112";
+        "mps_graph" = "0.00602112";
+    };
+    OpIndex = 26;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_6_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:41:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:41:12";
+    EstimatedRunTime =     {
+        ane = "0.0045684465656314";
+        "classic_cpu" = "0.01189538366918966";
+        "mps_graph" = "0.007373320980688763";
+    };
+    OpIndex = 36;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_8_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.137 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:51:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:51:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 46;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:61:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:61:12";
+    EstimatedRunTime =     {
+        ane = "0.003274032214503815";
+        "classic_cpu" = "0.05242558117865291";
+        "mps_graph" = "0.01253630062713254";
+    };
+    OpIndex = 56;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:71:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:71:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 66;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:81:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.add:81:12";
+    EstimatedRunTime =     {
+        ane = "0.0022842232828157";
+        "classic_cpu" = "0.005947691834594831";
+        "mps_graph" = "0.003686660490344381";
+    };
+    OpIndex = 76;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_add_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.add";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:91:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:91:12";
+    EstimatedRunTime =     {
+        ane = "0.00150528";
+        "classic_cpu" = "0.00150528";
+        "mps_graph" = "0.00150528";
+    };
+    OpIndex = 86;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_17_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:123:12, {
+    BackendSupport =     {
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.cast:123:12";
+    EstimatedRunTime =     {
+        "classic_cpu" = "9.870924060302019e-05";
+        "mps_graph" = "8.225769681089065e-05";
+    };
+    OpIndex = 118;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "Softmax_cast_to_fp32";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.cast";
+    SelectedBackend = "\"classic_cpu\"";
+    ValidationMessages =     {
+        ane = "Invalid output tensor format: fp32";
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:10:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:10:12";
+    EstimatedRunTime =     {
+        ane = "0.01605632";
+        "classic_cpu" = "0.01605632";
+        "mps_graph" = "0.01605632";
+    };
+    OpIndex = 5;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_Conv_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:20:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:20:12";
+    EstimatedRunTime =     {
+        ane = "0.01605632";
+        "classic_cpu" = "0.01605632";
+        "mps_graph" = "0.01605632";
+    };
+    OpIndex = 15;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_3_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:30:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:30:12";
+    EstimatedRunTime =     {
+        ane = "0.01124200936431636";
+        "classic_cpu" = "0.2053836965248841";
+        "mps_graph" = "0.08281572477674803";
+    };
+    OpIndex = 25;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_6_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:40:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:40:12";
+    EstimatedRunTime =     {
+        ane = "0.002422438763619039";
+        "classic_cpu" = "0.05590224360563986";
+        "mps_graph" = "0.01963558059995664";
+    };
+    OpIndex = 35;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_8_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:50:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:50:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 45;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_10_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:60:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:60:12";
+    EstimatedRunTime =     {
+        ane = "0.00301056";
+        "classic_cpu" = "0.00301056";
+        "mps_graph" = "0.00301056";
+    };
+    OpIndex = 55;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_12_expand_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:70:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:70:12";
+    EstimatedRunTime =     {
+        ane = "0.002428730812355711";
+        "classic_cpu" = "0.05604744423838178";
+        "mps_graph" = "0.01968658210800848";
+    };
+    OpIndex = 65;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_14_expand_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.138 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:80:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:80:12";
+    EstimatedRunTime =     {
+        ane = "0.002419292739250702";
+        "classic_cpu" = "0.0558296432892689";
+        "mps_graph" = "0.01961007984593072";
+    };
+    OpIndex = 75;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_15_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:90:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:90:12";
+    EstimatedRunTime =     {
+        ane = "0.004394095866834067";
+        "classic_cpu" = "0.07036064842398154";
+        "mps_graph" = "0.01682503505220419";
+    };
+    OpIndex = 85;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_17_depthwise_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:122:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.softmax:122:12";
+    EstimatedRunTime =     {
+        ane = "5.489324822145349e-05";
+        "classic_cpu" = "6.58719008219955e-05";
+        "mps_graph" = "5.489324822145349e-05";
+    };
+    OpIndex = 117;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = Softmax;
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.softmax";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:121:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.squeeze:121:12";
+    EstimatedRunTime =     {
+        ane = "5.494803190231323e-05";
+        "classic_cpu" = "6.593764124197753e-05";
+        "mps_graph" = "5.494803190231323e-05";
+    };
+    OpIndex = 116;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_Logits_Squeeze_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.squeeze";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:120:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.transpose:120:12";
+    EstimatedRunTime =     {
+        ane = "6.479396405050814e-05";
+        "classic_cpu" = "7.926607160761697e-05";
+        "mps_graph" = "5.680232466005728e-05";
+    };
+    OpIndex = 115;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "transpose_177";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.transpose";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:109:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios17.conv:109:12";
+    EstimatedRunTime =     {
+        ane = "0.001679190506599561";
+        "classic_cpu" = "0.03875041886300035";
+        "mps_graph" = "0.01361102746133358";
+    };
+    OpIndex = 104;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_project_BatchNorm_FusedBatchNormV3_nchw_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios17.conv";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 
+2024-08-03 09:09:29.139 coreml_profiling_without_compute_plan[27490:461550] at /Users/freedom/Library/Caches/coreml_profiling_without_compute_plan/com.apple.e5rt.e5bundlecache/23F79/9B1E3F3E1AC30720042C0E4E685E160CE7464CAC1492FAF3CE0CC3DDE58ADEF1/BF2AC7BEE2C8DDE78DBDC9DA69BF7F98091BAC8CC1E19CDD858739E19CE4E3C5.bundle/H13G.bundle/analytics.mil:108:12, {
+    BackendSupport =     {
+        ane = 1;
+        "classic_cpu" = 1;
+        "mps_graph" = 1;
+    };
+    DebugName = "ios16.relu:108:12";
+    EstimatedRunTime =     {
+        ane = "0.0012544";
+        "classic_cpu" = "0.0012544";
+        "mps_graph" = "0.0012544";
+    };
+    OpIndex = 103;
+    OpPath =     (
+                {
+            Type = Program;
+        },
+                {
+            Name = main;
+            Type = Function;
+        },
+                {
+            Type = Block;
+        },
+                {
+            Output = "MobilenetEdgeTPU_expanded_conv_20_depthwise_Relu_cast";
+            Type = Operation;
+        }
+    );
+    OpType = "ios16.relu";
+    SelectedBackend = "\"ane\"";
+    ValidationMessages =     {
+    };
+} 

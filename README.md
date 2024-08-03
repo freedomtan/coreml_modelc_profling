@@ -28,3 +28,9 @@ E.g., I got
 
 Notes:
 1. add `-s` for synchronous
+
+
+## get profiling results without using MLComputePlan
+It turns out it's pretty straightforward to get profiling results without use MLComputePlan related classes and methods.
+Some reverse-engineering showed that with some undocumented methods, we can get more detailed information as in [without_compute_plan_output.txt](without_compute_plan_output.txt)
+The example program is [here](coreml_profiling_without_compute_plan.m)
