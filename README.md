@@ -33,8 +33,8 @@ Notes:
 ## get profiling results without using MLComputePlan
 It turns out it's pretty straightforward to get profiling results without use MLComputePlan related classes and methods.
 Some reverse-engineering showed that with some undocumented methods, we can get more detailed information as in [without_compute_plan_output.txt](without_compute_plan_output.txt)
-The example program is [here](coreml_profiling_without_compute_plan.m)
+The example program is [here](https://github.com/freedomtan/coreml_modelc_profling/commit/de3f93fd4c1afa702aea878a38e2b919f8b0adbb)
 
 ### take 2
-Print outputs to stdout instead of `NSLog` to stderr. 
+With 85b7501 https://github.com/freedomtan/coreml_modelc_profling/commit/85b7501d4b2226d61c7b66aed5bb457f79d8d720, it prints outputs to stdout instead of `NSLog` to stderr. 
 https://github.com/freedomtan/coreml_modelc_profling/blob/85b7501d4b2226d61c7b66aed5bb457f79d8d720/without_compute_plan_2.csv#L1-L12
