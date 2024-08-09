@@ -52,6 +52,10 @@ void profile_it(NSURL *modelURL) {
     }
   }
 
+  // NSLog(@"%@, %@, %@, %@, %@, %@", d[k][@"DebugName"], d[k][@"OpType"], d[k][@"SelectedBackend"],
+  // backends, estimateds, error_messages);
+
+  bool initial = true;
   for (id k in sortedKeys) {
     NSString *backends = @"";
     NSString *estimateds = @"";
@@ -62,6 +66,20 @@ void profile_it(NSURL *modelURL) {
     // NSLog(@"%@", supportedBackends);
     // NSLog(@"%@", estimated);
 
+    if (initial == true) {
+      printf("DebugName, OpType, SelectedBackend, ");
+      for (int i = 0; i < max_backends; i++) {
+        printf("backend_%d, ", i);
+      }
+      for (int i = 0; i < max_backends; i++) {
+        printf("est_time_%d, ", i);
+      }
+      for (int i = 0; i < max_backends; i++) {
+        printf("invalid_%d, ", i);
+      }
+      printf("\b\b\n");
+      initial = false;
+    }
     for (int i = 0; i < max_backends; i++) {
       if ([supportedBackends containsObject:all_backends[i]]) {
         if (i < (max_backends - 1)) {
@@ -104,12 +122,15 @@ void profile_it(NSURL *modelURL) {
         }
       }
     }
-
     // NSLog(@"%@", backends);
     // NSLog(@"%@", estimateds);
     // NSLog(@"%@", error_messages);
-    NSLog(@"%@, %@, %@, %@, %@, %@", d[k][@"DebugName"], d[k][@"OpType"], d[k][@"SelectedBackend"],
-          backends, estimateds, error_messages);
+    // NSLog(@"%@, %@, %@, %@, %@, %@", d[k][@"DebugName"], d[k][@"OpType"],
+    // d[k][@"SelectedBackend"],
+    //      backends, estimateds, error_messages);
+    printf("%s\n", [[NSString stringWithFormat:@"%@, %@, %@, %@, %@, %@", d[k][@"DebugName"],
+                                               d[k][@"OpType"], d[k][@"SelectedBackend"], backends,
+                                               estimateds, error_messages] UTF8String]);
   }
 }
 
