@@ -75,9 +75,12 @@ void profile_it(NSURL *modelURL) {
         printf("est_time_%d, ", i);
       }
       for (int i = 0; i < max_backends; i++) {
-        printf("invalid_%d, ", i);
+        if (i < (max_backends - 1))
+          printf("invalid_%d, ", i);
+        else
+          printf("invalid_%d", i);
       }
-      printf("\b\b\n");
+      printf("\n");
       initial = false;
     }
     for (int i = 0; i < max_backends; i++) {
